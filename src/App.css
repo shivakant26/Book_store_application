@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sidebar {
+  width: 25%;
+  height: 600px;
+  color:#fff;
+  background-color: #063547;
+}
+.user_details img {
+  width: 182px;
+  height: 182px;
+  border-radius: 53%;
+  border: 6px solid #fff;
+}
+.dash_menu ul{
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+.dash_menu ul li{
+  border-bottom: 1px solid #fff;
+  padding: 10px 40px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.dash_menu ul li a{
+  text-decoration: none;
+  transition:.4s;
+  color: #fff;
+  text-transform: uppercase;
+}
+.dash_menu ul li a:hover{
+  color:#44b89d;
+}
+.dash_content {
+  width: 75%;
+}
