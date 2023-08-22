@@ -41,3 +41,14 @@
 .dash_content {
   width: 75%;
 }
+/* bk Table */
+.bk_table table{
+  width: 100%;
+  border:1px solid gray;
+  border-collapse: collapse;
+  padding: 10px;
+}
+tr , td ,th {
+  border: 1px solid gray;
+  padding: 8px 0px;
+}
